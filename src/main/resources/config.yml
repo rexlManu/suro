@@ -1,0 +1,23 @@
+#############################################################
+#                                                           #
+#                 Suro Plugin Configuration                 #
+#                     coded by rexlManu                     #
+#                                                           #
+#############################################################
+
+# The time when the server is open for everyone (example from 18h to 19h)
+Time: "18-19"
+# The timezone (default the europe timezone)
+ZoneId: "ECT"
+# Database type (current only file supported)
+Database: "file"
+# Not supported yet (later planned for remote databases like mysql)
+DatabaseConnection: ""
+
+# Change the messages to your taste
+Messages:
+  ConsoleSender: "You must be a player!"
+  NotAAdmin: "You must be a admin for this command."
+  NotTheTime: "The server is between 18 and 19pm open!"
+  NotWhitelisted: "You're not a part of this project."
+

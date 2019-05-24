@@ -1,0 +1,8 @@
+main: me.rexlmanu.suro.SuroPlugin
+name: Suro
+version: 1.0
+author: rexlManu
+description: A suro plugin like the big youtuber project
+commands:
+  suro:
+    permission: suro.admin
